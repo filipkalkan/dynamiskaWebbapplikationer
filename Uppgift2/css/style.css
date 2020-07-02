@@ -1,0 +1,133 @@
+#container {
+  color: white;
+  text-shadow: 1px 1px gray;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #346B65;
+  text-align: justify;
+}
+
+#classes {
+  background-color: #B88B48;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-size: 1.2rem;
+}
+
+section > table {
+  margin: auto;
+}
+
+a {
+  color: #B88B48;
+}
+
+header {
+  width: 100%;
+  background-color: #B88B48;
+  padding: 1% 0;
+  text-align: center;
+  font-family: 'Lexend Tera', sans-serif;
+  color: white;
+  text-shadow: 1px 1px gray;
+}
+
+article {
+  background-color: #51B8AD;
+  border-radius: 10px;
+  margin: 1%;
+  padding: 3%;
+  flex-basis: 25rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+aside {
+  text-align: center;
+  background-color: #B88B48;
+  padding: 3%;
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3% 0%;
+}
+
+section {
+  padding: 3% 10%;
+}
+
+h1 {
+  font-family: 'Lexend Tera', sans-serif;
+  text-align: center;
+}
+
+article > h2 {
+  font-family: 'Lexend Tera', sans-serif;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Lexend Tera', sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px gray;
+}
+
+h3 {
+  font-family: 'Lexend Tera', sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px gray;
+}
+
+.date {
+  text-align: left;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+nav > ul {
+  padding: 1.5%;
+  margin-top: 0;
+  background-color: #51B8AD;
+  font-size: 150%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+nav > ul > li> a {
+  color: white;
+  text-decoration: none;
+  line-height: 2rem;
+}
+
+nav > ul {
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  padding: 3%;
+  background-color: #51B8AD;
+  margin-top: -1rem;
+  font-style: italic;
+  font-size: 1rem;
+  text-align: center;
+}

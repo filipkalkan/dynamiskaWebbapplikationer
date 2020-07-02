@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="utf-8">
+  <title>Café Choco-Latte</title>
+  <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Café Choco-Latte</h1>
+    <h2>Fantastiskt kaffe & läckra bakverk</h2>
+    <p>Vi vill vara en kaffeoas där du känner de intensiva dofterna från kaffet när du kliver in genom dörren.
+      Vi är en plats där du för varje kopp kaffe och bakverk ska uppleva en sann njutning och smaksensation.
+      Vi vill ge dig hög kvalitet utan att tumma på rättvisan gentemot kaffe- och kakoodlarna.
+    </p>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Hem</a></li>
+        <li><a href="#">Kaffemeny</a></li>
+        <li><a href="#">Chokladmeny</a></li>
+        <li><a href="#">Chokladprovning</a></li>
+        <li><a href="#">Om oss</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <h2>Boka chokladprovning</h2>
+
+    <form action="index.html" method="post">
+      <fieldset>
+        <legend>Välj datum:</legend>
+        <p>
+          <input type="radio" name="date" value="30 april" id="30">
+          <label for="30">30 april</label>
+        </p>
+
+        <p>
+          <input type="radio" name="date" value="2 maj" id="2">
+          <label for="2">2 maj</label>
+        </p>
+
+        <p>
+          <input type="radio" name="date" value="7 maj" id="7">
+          <label for="7">7 maj</label>
+        </p>
+
+        <p>
+          <input type="radio" name="date" value="9 maj" id="9">
+          <label for="9">9 maj</label>
+        </p>
+
+        <p>
+          <input type="radio" name="date" value="14 maj" id="14">
+          <label for="14">14 maj</label>
+        </p>
+
+        <p>
+          <input type="radio" name="date" value="16 maj" id="16">
+          <label for="16">16 maj</label>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Välj antal personer:</legend>
+        <select name="people">
+          <option value="one">1</option>
+          <option value="two">2</option>
+          <option value="three">3</option>
+          <option value="four">4</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Fyll i dina uppgifter</legend>
+
+        <p>
+          <label for="Name">Namn:</label>
+          <input type="text" name="name" id="Name">
+        </p>
+
+        <p>
+          <label for="Email">Email:</label>
+          <input type="email" name="email" id="Email">
+        </p>
+
+        <p>
+          <label for="Tfn">Mobilnummer:</label>
+          <input type="number" name="tfn" id="Tfn">
+        </p>
+
+        <p>
+          <label for="Meddelande">Meddelande</label>
+          <textarea name="textArea" rows="2" cols="25" id="Meddelande"></textarea>
+        </p>
+      </fieldset>
+
+      <input type="submit" value="Boka">
+    </form>
+  </main>
+
+  <footer>
+    <hr>
+    © Copyright 2019 | Café Choco-Latte
+  </footer>
+</body>
