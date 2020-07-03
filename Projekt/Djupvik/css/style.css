@@ -53,15 +53,10 @@ nav > ul {
 nav > ul > li> a {
   color: white;
   text-decoration: none;
-  line-height: 2rem;
+  line-height: 2.3rem;
 }
 
-nav > ul {
-  font-weight: bold;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  list-style: none;
-}
+
 
 ul {
   list-style: none;
@@ -70,10 +65,15 @@ ul {
 
 table{
   width: 100%;
+  border-collapse: collapse;
 }
 
 tr:nth-child(even){
   background: lightGray;
+}
+
+td {
+  padding: 1%;
 }
 
 section {
@@ -107,7 +107,7 @@ button {
 h1 {
   margin: 0;
   color: white;
-  text-shadow: text-shadow: 1px 1px gray;
+  text-shadow: 1px 1px gray;
 }
 
 h2, h3{
@@ -123,19 +123,28 @@ img{
   margin: auto;
 }
 
-#news {
+.flexing-content {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
 }
 
-#news > article{
+.flexing-content > article{
   border-radius: 10px;
   margin: 1%;
   padding: 3%;
   flex-basis: 25rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flexing-content > section{
+  border-radius: 10px;
+  margin: 1%;
+  padding: 3%;
+  flex: 1;
+  flex-basis: 35rem;
+  padding-left: 0;
 }
 
 footer{
@@ -145,4 +154,36 @@ footer{
   padding: 5% 3% 5% 3%;
   width: auto;
   margin: 5% -16% 0% -16%;
+}
+
+@media (max-width:1140px){
+  .removable{
+    display: none;
+  }
+
+  label {
+    width: 100%;
+    float: none;
+    text-align: left;
+    display: block;
+  }
+
+  button {
+    margin-left: 0;
+  }
+}
+
+@media (min-width:960px) {
+  nav > ul {
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+  }
+
+  nav > ul > li> a {
+    color: white;
+    text-decoration: none;
+    line-height: 2rem;
+  }
 }
