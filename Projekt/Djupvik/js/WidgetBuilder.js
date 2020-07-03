@@ -40,7 +40,7 @@ function createTable(dataPoints) {
     todayRows.forEach(row => table.appendChild(row))
 
     table.appendChild(tomorrowHeader)
-    table.appendChild(tableHeaders)
+    table.appendChild(tableHeaders.cloneNode(true))
     tomorrowRows.forEach(row => table.appendChild(row))
 
     return table

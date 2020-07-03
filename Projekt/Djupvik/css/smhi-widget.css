@@ -1,0 +1,13 @@
+#smhi-widget > table {
+  padding: 3%;
+  line-height: 2rem;
+}
+
+aside {
+  flex: 1;
+  flex-basis: 22rem;
+  padding: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  margin-bottom: 3%;
+}
